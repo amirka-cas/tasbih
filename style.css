@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background: radial-gradient(circle at top, #0f3d2e, #071a14);
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+.tasbih{
+    width: 220px;
+    height: 220px;
+    border-radius: 40%;
+    background: radial-gradient(circle at top left, #f5d98b, #b89b4a);
+    box-shadow:
+        0 0 40px rgba(245,217,139,.7),
+         inset 0 0 20px rgba(255,255,255,.3); 
+
+}
+.buttons{
+    display: flex;
+    gap: 25px;
+
+}
+button{
+    padding:12px 28px;
+    border-radius:30px;
+    border:none;
+    font-size:15px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.2s;
+}
+.tap{
+    background:#f5d98b;
+    color:#071a14;
+}
+
+
+.reset{
+    background:transparent;
+    color:#f5d98b;
+    border:2px solid #f5d98b;
+}
