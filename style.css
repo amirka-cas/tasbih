@@ -11,23 +11,33 @@ body{
     align-items:center;
     justify-content:center;
     background: radial-gradient(circle at top, #0f3d2e, #071a14);
+    
 }
 .container{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    width: 350px;
     gap: 35px;
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.55);
 }
 .tasbih{
-    width: 220px;
-    height: 220px;
-    border-radius: 40%;
-    background: radial-gradient(circle at top left, #f5d98b, #b89b4a);
-    box-shadow:
-        0 0 40px rgba(245,217,139,.7),
-         inset 0 0 20px rgba(255,255,255,.3); 
-
+    align-items: center;
+    text-align: center;
+    background: #111;
+    color: #0ff;
+    font-size: 40px;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    transition: 0.3s ease;
+    width: 270px;
+    height: 70px;
 }
 .buttons{
     display: flex;
@@ -53,4 +63,7 @@ button{
     background:transparent;
     color:#f5d98b;
     border:2px solid #f5d98b;
+}
+.led-on{
+    background-color: white !important;
 }
